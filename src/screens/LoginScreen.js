@@ -7,8 +7,8 @@ import Message from "./../components/LoadingError/Error";
 
 const Login = ({ history }) => {
   window.scrollTo(0, 0);
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("admin@gmail.com");
+  const [password, setPassword] = useState("123456");
 
   const dispatch = useDispatch();
 
